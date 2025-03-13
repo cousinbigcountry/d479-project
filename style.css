@@ -1,0 +1,21 @@
+* {
+  padding: 2px;
+  margin: 2px;
+}
+
+.content-body {
+  display: flex;
+  gap: 20px;
+}
+.content {
+  float: right;
+}
+.content img {
+  float: left;
+}
+.content h2 {
+  text-align: center;
+}
+.content p {
+  text-align: center;
+}
