@@ -23,3 +23,25 @@
 .carousel-item img {
   justify-content: center;
 }
+/*DINING/TRANSPORTATION PAGES*/
+.content-second {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+.content-second h2 {
+  text-align: center;
+}
+.content-second p {
+  text-align: center;
+}
+.content-second img {
+  display: block;
+  margin: auto;
+  width: 20%;
+}
+.content-second button {
+  width: fit-content;
+  margin-left: 50%;
+}
