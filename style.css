@@ -2,7 +2,7 @@
   padding: 2px;
   margin: 2px;
 }
-
+/*HOME PAGE*/
 .content-body {
   display: flex;
   gap: 20px;
@@ -18,4 +18,8 @@
 }
 .content p {
   text-align: center;
+}
+/*ACTIVITIES PAGE*/
+.carousel-item img {
+  justify-content: center;
 }
