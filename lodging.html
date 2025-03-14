@@ -65,52 +65,80 @@
       </nav>
     </header>
     <main>
-      <section>
-        <div class="content-body-second">
-          <div class="content-second">
-            <img src="placeholder.png" alt="placeholder image" />
-            <h2>Heading</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui
-              nulla, lacinia ac odio eget, pharetra vehicula sapien. Nunc
-              molestie auctor quam ut luctus. Aliquam non tortor felis.
-              Suspendisse potenti. Duis pretium massa mi, quis porta erat varius
-              eu. Nulla tempus, libero eu facilisis tristique, lorem quam
-              gravida quam, eu ullamcorper nisi purus nec augue. Quisque ac
-              lectus nunc. Aenean in orci venenatis, venenatis dolor at, dapibus
-              risus. Nullam dui ex, hendrerit eu nunc ac, sollicitudin fringilla
-              orci. Donec vel velit gravida, interdum tortor mattis, laoreet
-              metus. Ut posuere libero nec enim tempus auctor. Aenean porttitor
-              dolor a odio bibendum, eget semper lectus cursus. Suspendisse a
-              sem mi. Phasellus quis viverra velit, ut vestibulum leo.
-            </p>
-            <button class="btn btn-secondary">Button</button>
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <ol class="carousel-indicators">
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="First slide"
+          ></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="1"
+            aria-label="Second slide"
+          ></li>
+          <li
+            data-bs-target="#carouselId"
+            data-bs-slide-to="2"
+            aria-label="Third slide"
+          ></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+          <div class="carousel-item active">
+            <img
+              src="placeholder.png"
+              class="w-50 d-block mx-auto"
+              alt="First slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="placeholder.png"
+              class="w-50 d-block mx-auto"
+              alt="Second slide"
+            />
+          </div>
+          <div class="carousel-item">
+            <img
+              src="placeholder.png"
+              class="w-50 d-block mx-auto"
+              alt="Third slide"
+            />
           </div>
         </div>
-      </section>
-      <section>
-        <div class="content-body-second">
-          <div class="content-second">
-            <img src="placeholder.png" alt="placeholder image" />
-            <h2>Heading</h2>
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin dui
-              nulla, lacinia ac odio eget, pharetra vehicula sapien. Nunc
-              molestie auctor quam ut luctus. Aliquam non tortor felis.
-              Suspendisse potenti. Duis pretium massa mi, quis porta erat varius
-              eu. Nulla tempus, libero eu facilisis tristique, lorem quam
-              gravida quam, eu ullamcorper nisi purus nec augue. Quisque ac
-              lectus nunc. Aenean in orci venenatis, venenatis dolor at, dapibus
-              risus. Nullam dui ex, hendrerit eu nunc ac, sollicitudin fringilla
-              orci. Donec vel velit gravida, interdum tortor mattis, laoreet
-              metus. Ut posuere libero nec enim tempus auctor. Aenean porttitor
-              dolor a odio bibendum, eget semper lectus cursus. Suspendisse a
-              sem mi. Phasellus quis viverra velit, ut vestibulum leo.
-            </p>
-            <button class="btn btn-secondary">Button</button>
-          </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselId"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="content-body">
+        <div class="content">
+          <h2>Lodging</h2>
+          <p>
+            Taniti has a wide variety of lodging that ranges from an inexpensive
+            hostel to one large, four-star resort. There are many small,
+            family-owned hotels and a growing number of bed and breakfasts. All
+            types of lodging are strictly regulated and regularly inspected by
+            the Tanitian government.
+          </p>
         </div>
-      </section>
+      </div>
     </main>
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
